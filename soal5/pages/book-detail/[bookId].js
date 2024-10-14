@@ -20,6 +20,7 @@ export const getStaticPaths = async () => {
     Beberapa API KEY yang dapat digunakan jika salah satunya terkena limit.
     API KEY 1 = 72f207b022d74aafb79ba6def6fd9d65
     API KEY 2 = 9eb58e43ca4a4fe2835d891adb6d2a77
+    API KEY 3 = 220019d1f068447da9c687e72e1a91d6
    */
   const response = await fetch(
     "https://api.bigbookapi.com/search-books?api-key=72f207b022d74aafb79ba6def6fd9d65&query=folklore"
@@ -41,6 +42,7 @@ export const getStaticProps = async (context) => {
     Beberapa API KEY yang dapat digunakan jika salah satunya terkena limit.
     API KEY 1 = 72f207b022d74aafb79ba6def6fd9d65
     API KEY 2 = 9eb58e43ca4a4fe2835d891adb6d2a77
+    API KEY 3 = 220019d1f068447da9c687e72e1a91d6
    */
   const response = await fetch(
     `https://api.bigbookapi.com/${bookId}?api-key=72f207b022d74aafb79ba6def6fd9d65`
