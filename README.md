@@ -38,7 +38,9 @@ Implementasikan endpoint berikut untuk API:
 
 # 4. Query SQL Mencari Ponsel Dalam Database
 Sebuah tabel menyimpan data-data ponsel yang terdiri dari beberapa kolom:
+
 ![image](https://github.com/user-attachments/assets/beb2bdd4-69b6-4c13-95d0-3071fddb4014)
+
 Tim anda ingin mendapatkan data-data semua Merek dan jumlah dari model yang diterbitkan merek tersebut yang merupakan tipe DualSim, Apakah Kueri SQL yang ada di bawahini benar? Jika salah, apa kueri yang benar?
 ```
 SELECT Ponsel.Merek, COUNT(Ponsel.Model)FROM PonselWHERE Ponsel.DualSim = TRUE
